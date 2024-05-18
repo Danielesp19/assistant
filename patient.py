@@ -9,6 +9,6 @@ class Patient:
     def add_patient_info(self, key, value):
         self.patient_info[key] = value
 
-    def mostart(self):
+    def mostrar(self):
         print(self.patient_info)
         print(self.medical_history)

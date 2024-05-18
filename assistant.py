@@ -47,10 +47,4 @@ def beep():
     playsound.playsound(filename)
 
 
-def text_to_number(text):
-    if text.startswith("uno") or text.startswith("un"):
-        return 1
-    if text.startswith("dos"):
-        return 2
-    if text.startswith("tres"):
-        return 3
+

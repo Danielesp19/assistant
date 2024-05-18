@@ -8,6 +8,7 @@ def show():
     medical_assistant.ask_lifestyle_habits()
     medical_assistant.ask_family_history()
     medical_assistant.ask_general_assessment()
+    medical_assistant.generate_medical_report()
 
 
 

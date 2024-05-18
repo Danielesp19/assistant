@@ -36,6 +36,7 @@ class MedicalAssistant:
 
         
     def generate_medical_report(self):
+        self.patient.mostrar()
         print("   ")
 
 
